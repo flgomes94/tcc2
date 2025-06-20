@@ -985,17 +985,207 @@
             }
         }
     ],
+    "ContainerLayer": [
+        {
+            "attributes": {
+                "id": 1,
+                "digest": "sha256:df9b9388f04ad6279a7410b85cedfdcb2208c0a003da7ab5613af71079148139",
+                "size": 2,
+                "instruction": "ADD file:5d673d25da3a14ce1f6cf"
+            },
+            "relationships": {
+                "server": {
+                    "class": "EdgeServer",
+                    "id": 1
+                }
+            }
+        },
+        {
+            "attributes": {
+                "id": 2,
+                "digest": "sha256:b6846b9db566bc2ea5e2b0056c49772152c9b7c8f06343efb1ef764b23bb9d96",
+                "size": 5,
+                "instruction": "/bin/sh -c set -eux; \tversion="
+            },
+            "relationships": {
+                "server": {
+                    "class": "EdgeServer",
+                    "id": 2
+                }
+            }
+        },
+        {
+            "attributes": {
+                "id": 3,
+                "digest": "sha256:c229119241af7b23b121052a1cae4c03e0a477a72ea6a7f463ad7623ff8f274b",
+                "size": 29,
+                "instruction": "ADD file:966d3669b40f5fbaecee1"
+            },
+            "relationships": {
+                "server": {
+                    "class": "EdgeServer",
+                    "id": 3
+                }
+            }
+        },
+        {
+            "attributes": {
+                "id": 4,
+                "digest": "sha256:2215908dc0a28873ff92070371b1ba3a3cb9d4440d44926c5f29f47a76b17b35",
+                "size": 24,
+                "instruction": "/bin/sh -c set -x     && addgr"
+            },
+            "relationships": {
+                "server": {
+                    "class": "EdgeServer",
+                    "id": 4
+                }
+            }
+        },
+        {
+            "attributes": {
+                "id": 5,
+                "digest": "sha256:e0b25ef516347a097d75f8aea6bc0f42a4e8e70b057e84d85098d51f96d458f9",
+                "size": 27,
+                "instruction": "ADD file:b83df51ab7caf8a4dc35f"
+            },
+            "relationships": {
+                "server": {
+                    "class": "EdgeServer",
+                    "id": 5
+                }
+            }
+        }
+    ],
+    "ContainerImage": [
+        {
+            "attributes": {
+                "id": 1,
+                "name": "nginx",
+                "tag": "",
+                "digest": "sha256:83d487b625d8c7818044c04f1b48aabccd3f51c3341fc300926846bca0c439e6",
+                "layers_digests": [
+                    "sha256:df9b9388f04ad6279a7410b85cedfdcb2208c0a003da7ab5613af71079148139"
+                ],
+                "architecture": ""
+            },
+            "relationships": {
+                "server": {
+                    "class": "EdgeServer",
+                    "id": 1
+                }
+            }
+        },
+        {
+            "attributes": {
+                "id": 2,
+                "name": "redis",
+                "tag": "",
+                "digest": "sha256:1b36e146475b71ee04da1ce60f201308392ff8468107f91615885d2e49536010",
+                "layers_digests": [
+                    "sha256:b6846b9db566bc2ea5e2b0056c49772152c9b7c8f06343efb1ef764b23bb9d96"
+                ],
+                "architecture": ""
+            },
+            "relationships": {
+                "server": {
+                    "class": "EdgeServer",
+                    "id": 2
+                }
+            }
+        },
+        {
+            "attributes": {
+                "id": 3,
+                "name": "mysql",
+                "tag": "",
+                "digest": "sha256:8cdf596eb3fba84ae6d0ad683d330dcaf87ef8fb51e4d5dd9f1e289c5012e0f8",
+                "layers_digests": [
+                    "sha256:c229119241af7b23b121052a1cae4c03e0a477a72ea6a7f463ad7623ff8f274b"
+                ],
+                "architecture": ""
+            },
+            "relationships": {
+                "server": {
+                    "class": "EdgeServer",
+                    "id": 3
+                }
+            }
+        },
+        {
+            "attributes": {
+                "id": 4,
+                "name": "python",
+                "tag": "",
+                "digest": "sha256:dff8c1e4c3a609e87c05f1e08399332cf2dfb2b41d9bc91e142eb5c2bee887a0",
+                "layers_digests": [
+                    "sha256:2215908dc0a28873ff92070371b1ba3a3cb9d4440d44926c5f29f47a76b17b35"
+                ],
+                "architecture": ""
+            },
+            "relationships": {
+                "server": {
+                    "class": "EdgeServer",
+                    "id": 4
+                }
+            }
+        },
+        {
+            "attributes": {
+                "id": 5,
+                "name": "node",
+                "tag": "",
+                "digest": "sha256:87cea4658eb63b6bc1fb52a5f0c7f3c833615449f6e803cb8f2182f2a59ae09d",
+                "layers_digests": [
+                    "sha256:e0b25ef516347a097d75f8aea6bc0f42a4e8e70b057e84d85098d51f96d458f9"
+                ],
+                "architecture": ""
+            },
+            "relationships": {
+                "server": {
+                    "class": "EdgeServer",
+                    "id": 5
+                }
+            }
+        }
+    ],
+    "ContainerRegistry": [
+        {
+            "attributes": {
+                "id": 1,
+                "cpu_demand": 1,
+                "memory_demand": 1024
+            },
+            "relationships": {
+                "server": {
+                    "class": "EdgeServer",
+                    "id": 1
+                }
+            }
+        }
+    ],
+    "RandomDurationAndIntervalAccessPattern": [],
     "CircularDurationAndIntervalAccessPattern": [
         {
             "attributes": {
                 "id": 1,
                 "duration_values": [
-                    1000000
+                    9999999999
                 ],
                 "interval_values": [
                     0
                 ],
-                "history": []
+                "history": [
+                    {
+                        "start": 1,
+                        "end": 9999999999,
+                        "duration": 9999999999,
+                        "waiting_time": 0,
+                        "access_time": 0,
+                        "interval": 0,
+                        "next_access": 9999999999
+                    }
+                ]
             },
             "relationships": {
                 "user": {
@@ -1012,12 +1202,22 @@
             "attributes": {
                 "id": 2,
                 "duration_values": [
-                    1000000
+                    9999999999
                 ],
                 "interval_values": [
                     0
                 ],
-                "history": []
+                "history": [
+                    {
+                        "start": 1,
+                        "end": 9999999999,
+                        "duration": 9999999999,
+                        "waiting_time": 0,
+                        "access_time": 0,
+                        "interval": 0,
+                        "next_access": 9999999999
+                    }
+                ]
             },
             "relationships": {
                 "user": {
@@ -1034,12 +1234,22 @@
             "attributes": {
                 "id": 3,
                 "duration_values": [
-                    1000000
+                    9999999999
                 ],
                 "interval_values": [
                     0
                 ],
-                "history": []
+                "history": [
+                    {
+                        "start": 1,
+                        "end": 9999999999,
+                        "duration": 9999999999,
+                        "waiting_time": 0,
+                        "access_time": 0,
+                        "interval": 0,
+                        "next_access": 9999999999
+                    }
+                ]
             },
             "relationships": {
                 "user": {
@@ -1056,12 +1266,22 @@
             "attributes": {
                 "id": 4,
                 "duration_values": [
-                    1000000
+                    9999999999
                 ],
                 "interval_values": [
                     0
                 ],
-                "history": []
+                "history": [
+                    {
+                        "start": 1,
+                        "end": 9999999999,
+                        "duration": 9999999999,
+                        "waiting_time": 0,
+                        "access_time": 0,
+                        "interval": 0,
+                        "next_access": 9999999999
+                    }
+                ]
             },
             "relationships": {
                 "user": {
@@ -1078,12 +1298,22 @@
             "attributes": {
                 "id": 5,
                 "duration_values": [
-                    1000000
+                    9999999999
                 ],
                 "interval_values": [
                     0
                 ],
-                "history": []
+                "history": [
+                    {
+                        "start": 1,
+                        "end": 9999999999,
+                        "duration": 9999999999,
+                        "waiting_time": 0,
+                        "access_time": 0,
+                        "interval": 0,
+                        "next_access": 9999999999
+                    }
+                ]
             },
             "relationships": {
                 "user": {
