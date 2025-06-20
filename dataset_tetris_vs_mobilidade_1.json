@@ -977,7 +977,8 @@
         {
             "attributes": {
                 "id": 1,
-                "duration_values": [9999999999
+                "duration_values": [
+                    9999999999
                 ],
                 "interval_values": [
                     0
@@ -1008,7 +1009,8 @@
         {
             "attributes": {
                 "id": 2,
-                "duration_values": [9999999999
+                "duration_values": [
+                    9999999999
                 ],
                 "interval_values": [
                     0
@@ -1039,7 +1041,8 @@
         {
             "attributes": {
                 "id": 3,
-                "duration_values": [9999999999
+                "duration_values": [
+                    9999999999
                 ],
                 "interval_values": [
                     0
@@ -1070,7 +1073,8 @@
         {
             "attributes": {
                 "id": 4,
-                "duration_values": [9999999999
+                "duration_values": [
+                    9999999999
                 ],
                 "interval_values": [
                     0
