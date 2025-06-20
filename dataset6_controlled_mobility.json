@@ -1836,7 +1836,7 @@
                         "id": 1
                     }
                 },
-                "mobility_model": "static",
+                "mobility_model": "pathway",
                 "applications": [
                     {
                         "class": "Application",
@@ -2091,7 +2091,7 @@
                         "id": 6
                     }
                 },
-                "mobility_model": "static",
+                "mobility_model": "pathway",
                 "applications": [
                     {
                         "class": "Application",
