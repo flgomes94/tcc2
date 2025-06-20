@@ -1989,7 +1989,7 @@
                         "id": 4
                     }
                 },
-                "mobility_model": "random",
+                "mobility_model": "random_mobility",
                 "applications": [
                     {
                         "class": "Application",
@@ -2040,7 +2040,7 @@
                         "id": 5
                     }
                 },
-                "mobility_model": "random",
+                "mobility_model": "random_mobility",
                 "applications": [
                     {
                         "class": "Application",
