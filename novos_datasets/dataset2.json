@@ -2746,7 +2746,7 @@
                 "state": 0,
                 "_available": true,
                 "cpu_demand": 7.5,
-                "memory_demand": 10240.0,
+                "memory_demand": 1024.0,
                 "image_digest": "sha256:a777c9c66ba177ccfea23f2a216ff6721e78a662cd17019488c417135299cd89",
                 "privacy_requirement": 0,
                 "drop": false
@@ -2766,7 +2766,7 @@
                 "state": 0,
                 "_available": true,
                 "cpu_demand": 7.5,
-                "memory_demand": 10240.0,
+                "memory_demand": 1024.0,
                 "image_digest": "sha256:a777c9c66ba177ccfea23f2a216ff6721e78a662cd17019488c417135299cd89",
                 "privacy_requirement": 0,
                 "drop": false
@@ -2786,7 +2786,7 @@
                 "state": 0,
                 "_available": true,
                 "cpu_demand": 7.5,
-                "memory_demand": 10240.0,
+                "memory_demand": 1024.0,
                 "image_digest": "sha256:83d487b625d8c7818044c04f1b48aabccd3f51c3341fc300926846bca0c439e6",
                 "privacy_requirement": 0,
                 "drop": false
@@ -2806,7 +2806,7 @@
                 "state": 0,
                 "_available": true,
                 "cpu_demand": 7.5,
-                "memory_demand": 10240.0,
+                "memory_demand": 1024.0,
                 "image_digest": "sha256:83d487b625d8c7818044c04f1b48aabccd3f51c3341fc300926846bca0c439e6",
                 "privacy_requirement": 0,
                 "drop": false
@@ -2826,7 +2826,7 @@
                 "state": 0,
                 "_available": true,
                 "cpu_demand": 7.5,
-                "memory_demand": 10240.0,
+                "memory_demand": 1024.0,
                 "image_digest": "sha256:31cd7bbfd36421dfd338bceb36d803b3663c1bfa87dfe6af7ba764b5bf34de05",
                 "privacy_requirement": 0,
                 "drop": false
@@ -2846,7 +2846,7 @@
                 "state": 0,
                 "_available": true,
                 "cpu_demand": 7.5,
-                "memory_demand": 10240.0,
+                "memory_demand": 1024.0,
                 "image_digest": "sha256:31cd7bbfd36421dfd338bceb36d803b3663c1bfa87dfe6af7ba764b5bf34de05",
                 "privacy_requirement": 0,
                 "drop": false
@@ -3452,7 +3452,7 @@
                 "available": true,
                 "model_name": "E5645",
                 "cpu": 7,
-                "memory": 10240,
+                "memory": 24576,
                 "disk": 131072,
                 "cpu_demand": 0,
                 "memory_demand": 0,
