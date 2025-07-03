@@ -1965,7 +1965,7 @@
                         "id": 4
                     }
                 },
-                "mobility_model": "random_mobility",
+                "mobility_model": "pathway",
                 "applications": [
                     {
                         "class": "Application",
@@ -2010,7 +2010,7 @@
                         "id": 5
                     }
                 },
-                "mobility_model": "random_mobility",
+                "mobility_model": "pathway",
                 "applications": [
                     {
                         "class": "Application",
@@ -2055,7 +2055,7 @@
                         "id": 6
                     }
                 },
-                "mobility_model": "random_mobility",
+                "mobility_model": "pathway",
                 "applications": [
                     {
                         "class": "Application",
